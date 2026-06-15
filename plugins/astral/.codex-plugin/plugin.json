@@ -1,0 +1,44 @@
+{
+  "name": "astral",
+  "version": "0.1.0",
+  "description": "Community Codex port of skills for working with Python using Astral tools.",
+  "author": {
+    "name": "kmshdev",
+    "email": "me@kmsh.dev",
+    "url": "https://github.com/kmshdev"
+  },
+  "homepage": "https://github.com/kmshdev/astral-codex-plugin",
+  "repository": "https://github.com/kmshdev/astral-codex-plugin",
+  "license": "MIT OR Apache-2.0",
+  "keywords": [
+    "python",
+    "astral",
+    "uv",
+    "ruff",
+    "package-manager",
+    "linter",
+    "formatter",
+    "ty",
+    "type-checker"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Astral Tools (Codex Port)",
+    "shortDescription": "Use uv, ruff, and ty correctly in Python projects.",
+    "longDescription": "Community Codex port of Python package management, linting, formatting, and type checking skills for Astral tools.",
+    "developerName": "kmshdev",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://github.com/kmshdev/astral-codex-plugin",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "defaultPrompt": [
+      "Use uv for this Python task.",
+      "Lint and format with ruff.",
+      "Type check this Python code with ty."
+    ],
+    "brandColor": "#DE5FE9"
+  }
+}
