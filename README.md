@@ -41,7 +41,7 @@ plugins/uv-python-tools/
 
 The skill content was migrated from
 `https://github.com/astral-sh/claude-code-plugins`. This is a community Codex
-plugin, not an official Astral-published or uv-published plugin.
+plugin, not published by Astral or the uv project.
 
 The source plugin is dual licensed under MIT or Apache-2.0. Copies of both
 licenses are included in this repository.
