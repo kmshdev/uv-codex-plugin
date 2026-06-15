@@ -5,6 +5,21 @@ The original `astral-sh/claude-code-plugins` uv skill first landed on
 `name` frontmatter. This reference summarizes uv changes that matter for this
 Codex plugin as of uv `0.11.21`, published 2026-06-11.
 
+## How to use this reference
+
+Use this file as deferred context for the uv skill. Keep `SKILL.md` concise and
+operational; move detailed release history, source URLs, and edge-case notes
+here. Open this reference before:
+
+- updating uv workflow guidance in `SKILL.md`;
+- answering what changed in uv since the source plugin;
+- deciding whether a workflow is stable or preview-only;
+- adding guidance for workspaces, Python upgrades, publishing, indexes, auth,
+  or preview features.
+
+Do not copy the entire reference into `SKILL.md`. Promote only short,
+frequently needed operational rules into the active skill.
+
 ## Sources inspected
 
 - Original plugin source: `astral-sh/claude-code-plugins`, uv skill in the
