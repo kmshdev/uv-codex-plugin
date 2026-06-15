@@ -1,14 +1,14 @@
 {
-  "name": "astral-codex-plugin",
+  "name": "uv-codex-plugin",
   "interface": {
-    "displayName": "Astral Codex Plugin"
+    "displayName": "uv Codex Plugin"
   },
   "plugins": [
     {
-      "name": "astral",
+      "name": "uv-python-tools",
       "source": {
         "source": "local",
-        "path": "./plugins/astral"
+        "path": "./plugins/uv-python-tools"
       },
       "policy": {
         "installation": "AVAILABLE",

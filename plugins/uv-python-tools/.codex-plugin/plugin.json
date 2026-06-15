@@ -1,14 +1,14 @@
 {
-  "name": "astral",
+  "name": "uv-python-tools",
   "version": "0.1.0",
-  "description": "Community Codex port of skills for working with Python using Astral tools.",
+  "description": "Community Codex plugin for uv-centered Python project workflows.",
   "author": {
     "name": "kmshdev",
     "email": "me@kmsh.dev",
     "url": "https://github.com/kmshdev"
   },
-  "homepage": "https://github.com/kmshdev/astral-codex-plugin",
-  "repository": "https://github.com/kmshdev/astral-codex-plugin",
+  "homepage": "https://github.com/kmshdev/uv-codex-plugin",
+  "repository": "https://github.com/kmshdev/uv-codex-plugin",
   "license": "MIT OR Apache-2.0",
   "keywords": [
     "python",
@@ -23,15 +23,15 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Astral Tools (Codex Port)",
-    "shortDescription": "Use uv, ruff, and ty correctly in Python projects.",
-    "longDescription": "Community Codex port of Python package management, linting, formatting, and type checking skills for Astral tools.",
+    "displayName": "uv Python Tools",
+    "shortDescription": "Use uv correctly with ruff and ty in Python projects.",
+    "longDescription": "Community Codex plugin for uv-centered Python workflows, with companion guidance for ruff linting and ty type checking.",
     "developerName": "kmshdev",
     "category": "Developer Tools",
     "capabilities": [
       "Write"
     ],
-    "websiteURL": "https://github.com/kmshdev/astral-codex-plugin",
+    "websiteURL": "https://github.com/kmshdev/uv-codex-plugin",
     "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
     "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
     "defaultPrompt": [

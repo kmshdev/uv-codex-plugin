@@ -1,9 +1,9 @@
-# Astral Codex Plugin
+# uv Codex Plugin
 
-Community Codex port of the Astral Claude Code plugin skills for Python projects.
+Community Codex plugin for uv-centered Python project workflows.
 
-This repository is a Codex marketplace root. It exposes one local plugin, `astral`,
-with skills for:
+This repository is a Codex marketplace root. It exposes one local plugin,
+`uv-python-tools`, with skills for:
 
 - `uv`: Python package and environment management.
 - `ruff`: Python linting and formatting.
@@ -14,13 +14,13 @@ with skills for:
 Add this repository as a Codex plugin marketplace:
 
 ```bash
-codex plugin marketplace add kmshdev/astral-codex-plugin
+codex plugin marketplace add kmshdev/uv-codex-plugin
 ```
 
 Then install the plugin:
 
 ```bash
-codex plugin add astral@astral-codex-plugin
+codex plugin add uv-python-tools@uv-codex-plugin
 ```
 
 Start a new Codex thread after installation so Codex loads the bundled skills.
@@ -29,7 +29,7 @@ Start a new Codex thread after installation so Codex loads the bundled skills.
 
 ```text
 .agents/plugins/marketplace.json
-plugins/astral/
+plugins/uv-python-tools/
   .codex-plugin/plugin.json
   skills/
     uv/SKILL.md
@@ -41,7 +41,7 @@ plugins/astral/
 
 The skill content was migrated from
 `https://github.com/astral-sh/claude-code-plugins`. This is a community Codex
-port, not an official Astral-published plugin.
+plugin, not an official Astral-published or uv-published plugin.
 
 The source plugin is dual licensed under MIT or Apache-2.0. Copies of both
 licenses are included in this repository.
